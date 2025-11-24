@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Bungee+Hairline&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Kode+Mono:wght@400..700&family=Luckiest+Guy&family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Luckiest+Guy&family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Luckiest+Guy&family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Luckiest+Guy&family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bebas+Neue&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Bungee&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Luckiest+Guy&family=Michroma&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bungee&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Luckiest+Guy&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton+SC&family=Archivo+Black&family=Bungee&family=Changa+One:ital@0;1&family=Dela+Gothic+One&family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMD/CDt+cEDiE7j56Wf5XJg7jVd19g1zYkYyK7gq2g1wF5D5P6p0W5/D6L5T6L7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLMD/CDt+cEDiE7j56Wf5XJg7jVd19g1zYkYyK7gq2g1wF5D5P6p0W5/D6L5T6L7w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>URL Threat Detector</title>
+
+    <style>
+      /* --- GLOBAL STYLES --- */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        cursor: none;
+        user-select: none;
+        outline: none;
+      }
+
+      body {
+        font-family: 'Arial', sans-serif;
+        background-color: #FFB74B;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        color: #000;
+        line-height: 1.6;
+        padding-top: 100px;
+        cursor: none;
+        user-select: none;
+        outline: none;
+      }
+      
+      /* --- NAVIGATION STYLES --- */
+      nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        padding: 10px 20px;
+        padding-top: 30px;
+        background-color: #FFB74B;
+        z-index: 1000;
+      }
+
+      .logo {
+        background: black;
+        color: white;
+        padding: 10px 100px;
+        border-radius: 6px;
+        font-family: "Bungee", sans-serif;
+        font-size: 2rem;
+      }
+
+      .nav-links {
+        display: flex;
+        gap: 70px;
+        list-style: none;
+        font-weight: bold;
+        font-family: "Bungee", sans-serif;
+        cursor: none;
+      }
+
+      .nav-links li {
+        border: 2px solid black;
+        padding: 8px 15px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.3s;
+        background-color: #FFB74B;
+        cursor: none;
+      }
+
+      .nav-links li:hover {
+        background: black;
+        color: white;
+        transform: scale(1.05);
+        cursor: none;
+      }
+
+      .test {
+        font-weight: bold;
+        border: 2px solid black;
+        padding: 10px 80px;
+        border-radius: 6px;
+        background: black;
+        color: white;
+        cursor: pointer;
+        font-size: 2.3rem;
+        font-family: "Bungee", sans-serif;
+        cursor: none;
+      }
+
+      /* --- NEW MOBILE MENU STYLES --- */
+      .menu-toggle {
+        display: none; /* Hidden by default on large screens */
+        font-size: 1.8rem;
+        padding: 0px 0px;
+        user-select: none;
+        outline: none;
+        border-radius: 6px;
+        background-color: #FFB74B;
+        color: black;
+        cursor: none;
+        z-index: 1001;
+      }
+      
+      /* Hide the menu-toggle icon on large screens */
+      @media (min-width: 961px) {
+          .menu-toggle {
+              display: none;
+          }
+      }
+      
+      /* Mobile/Tablet View (Max width 960px) */
+      @media (max-width: 960px) {
+          /* Show the hamburger icon and maintain nav structure */
+          nav {
+              padding-top: 20px;
+              /* Keep the display flex for logo, toggle, and test button */
+              display: flex; 
+              justify-content: space-between;
+              align-items: center;
+          }
+          
+          .logo {
+              padding: 10px 30px;
+              font-size: 1.5rem;
+          }
+
+          .test {
+              display: none; /* Optionally hide the TEST button on mobile if space is tight */
+          }
+
+          .menu-toggle {
+              display: block; /* Show the hamburger icon */
+          }
+
+          /* Hide the default nav links initially */
+          .nav-links {
+              display: none;
+              flex-direction: column;
+              width: 100%;
+              position: absolute;
+              top: 80px; /* Position below the main nav bar */
+              left: 0;
+              background-color: #FFB74B;
+              padding: 20px 0;
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+              text-align: center;
+              gap: 10px;
+          }
+          
+          /* Style for individual mobile menu items */
+          .nav-links li {
+              margin: 10px auto;
+              padding: 10px 20px;
+              width: 80%; 
+          }
+
+          /* Class to show the navigation links when toggled by JS */
+          .nav-links.active {
+              display: flex;
+          }
+          
+          /* Re-adjust padding for body */
+          body {
+              padding-top: 80px; 
+          }
+      }
+      /* --- END NEW MOBILE MENU STYLES --- */
+
+      /* --- HERO SECTION STYLES --- */
+      .hero {
+        margin: 40px auto;
+        max-width: 1250px;
+        text-align: center;
+        padding: 20px;
+        z-index: 1;
+        font-family: "Bungee", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        cursor: none;
+      }
+
+
+      .hero h1 {
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 1.3;
+        cursor: none;
+      }
+
+      .highlight {
+        display: inline-block;
+        background: white;
+        padding: 3px 6px;
+        border-radius: 50%;
+        font-size: 1.5rem;
+        margin: 0 5px;
+        cursor: none;
+      }
+
+      
+      .desc {
+        margin: 90px;
+        max-width: 550px;
+        font-size: 1.6rem;
+        text-align: center;
+        font-family: "Kode Mono", monospace;
+        cursor: none;
+      
+      }
+
+      
+      .btns {
+        
+        margin-top: -40px;
+        margin-left: 90px;
+        display: flex;
+        justify-content: left;
+        gap: 15px;
+        flex-wrap: wrap;
+        cursor: none;
+        
+      }
+
+      .btn {
+        padding: 20px 50px;  
+        border-radius: 6px;
+        font-weight: bold;
+       
+        font-size: 1rem;
+        border: none;
+        width: auto;
+        min-width: 150px;
+        cursor: none;
+      }
+
+      .btn-upload {
+        background: black;
+        color: white;
+        font-family: "Bungee", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.25rem;
+        
+      }
+
+      .btn-url {
+        background: #FFB74B;
+        border: 2px solid black;
+        color: #000;
+        font-family: "Bungee", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        font-size: 1.25rem;
+      }
+
+      
+      .box {
+        background: black;
+        width: 750px;
+        height: 350px;
+        margin: -250px 130px 30px auto;
+        transform: rotate(-5deg);
+        border-radius: 8px;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      /* --- SCANNER SECTION STYLES --- */
+    .container {
+      background: black;
+      width: 100%;
+      max-width: 100%;
+      margin: clamp(5%, 10vh, 15vh) auto;
+      padding: clamp(20px, 5vw, 50px);
+      border-radius: clamp(10px, 2vw, 20px);
+      text-align: center;
+      color: #FCF1E3;
+      min-height: 250vh;
+      height: auto;
+      background-image: url('Rectangle 10.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      box-sizing: border-box;
+    }
+
+      .container h2 {
+        margin-bottom: 15px;
+      }
+    .fa-exclamation-triangle {
+      color: #FCF1E3;
+      font-family: "Bungee", sans-serif;
+      font-weight: 100;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 20px auto;
+      width: 90%;
+      word-break: break-word;
+      line-height: 1.2;
+      font-size: clamp(2rem, 5vw, 6rem);
+    }
+
+    .fa-exclamation-triangle i {
+      font-size: clamp(2rem, 5vw, 5rem);
+    }
+
+    /* Explosion Flower Styles (Unchanged) */
+    .explosionflower {
+      position: absolute;
+      width: clamp(60px, 12vw, 160px);
+      height: clamp(60px, 12vw, 160px);
+      top: clamp(9%, 8.5vh, 10%);
+      left: clamp(5%, 8vw, 15%);
+      margin: 0;
+      z-index: 1;
+      animation: pulse 4s infinite ease-in-out;
+    }
+
+    .explosionflower::before,
+    .explosionflower::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      clip-path: polygon(
+        50% 0%, 60% 35%, 98% 35%, 68% 57%,
+        79% 91%, 50% 70%, 21% 91%, 32% 57%,
+        2% 35%, 40% 35%
+      );
+      z-index: 1;
+      transition: transform 0.5s ease;
+    }
+
+    .explosionflower::before {
+      background: radial-gradient(circle at center, #ffcc66 0%, #ffb74b 40%, #ff9800 100%);
+      transform: rotate(0deg);
+    }
+
+    .explosionflower::after {
+      background: radial-gradient(circle at center, #66b3ff 0%, #007bff 40%, #0040ff 100%);
+      transform: rotate(20deg);
+      mix-blend-mode: screen;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1) rotate(0deg);
+      }
+      50% {
+        transform: scale(1.1) rotate(10deg);
+      }
+    }
+
+    .explosionflower-left {
+      position: absolute;
+      width: clamp(60px, 12vw, 160px);
+      height: clamp(60px, 12vw, 160px);
+      top: clamp(18.5%, 20vh, 30%);
+      left: clamp(80%, 10vw, 22%);
+      margin: 0;
+      z-index: 1;
+      animation: pulse-left 4s infinite ease-in-out;
+    }
+
+
+    .explosionflower-left::before,
+    .explosionflower-left::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      clip-path: polygon(
+        50% 0%, 60% 35%, 98% 35%, 68% 57%,
+        79% 91%, 50% 70%, 21% 91%, 32% 57%,
+        2% 35%, 40% 35%
+      );
+      z-index: 1;
+      transition: transform 0.5s ease;
+    }
+
+
+    .explosionflower-left::before {
+      background: radial-gradient(circle at center, #ffcc66 0%, #ffb74b 40%, #ff9800 100%);
+      transform: rotate(0deg);
+    }
+
+
+    .explosionflower-left::after {
+      background: radial-gradient(circle at center, #66b3ff 0%, #007bff 40%, #0040ff 100%);
+      transform: rotate(20deg);
+      mix-blend-mode: screen;
+    }
+
+
+    @keyframes pulse-left {
+      0%, 100% {
+        transform: scale(1) rotate(-10deg);
+      }
+      50% {
+        transform: scale(1.1) rotate(0deg);
+      }
+    }
+    .descrip {
+      margin: 20px auto;
+      max-width: 90%;
+      font-size: clamp(1rem, 2.5vw, 1.6rem);
+      text-align: center;
+      font-family: "Kode Mono", monospace;
+      line-height: 1.5;
+      padding: 0 10px;
+      box-sizing: border-box;
+      word-wrap: break-word;
+    }
+
+
+
+
+      input {
+        width: 95%;
+        padding: 14px;
+        font-size: 16px;
+        border: 2px solid #58a6ff;
+        border-radius: 8px;
+        background-color: #22272e;
+        color: white;
+        margin-bottom: 15px;
+      }
+
+      button {
+        background-color: #FFB74B;
+        color: white;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        width: 100%;
+        transition: 0.3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        border: none;
+      }
+
+      button:hover {
+        transform: scale(1.05);
+      }
+
+      .scan-icon {
+        font-size: 18px;
+      }
+
+      
+      .spinner {
+        display: none;
+        margin: 10px auto;
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #3498db;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      
+      .result-box {
+        margin-top: 20px;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 16px;
+        background-color: #FCF1E3;
+        color: black;
+      }
+
+      .benign { color: #34D399; }
+      .defacement { color: #F59E0B; }
+      .malware { color: #EF4444; }
+      .phishing { color: #8B5CF6; }
+      .unknown { color: #ffffff; }
+
+    .section2 {
+      position: relative;
+      top: 20vh;
+      width: 100%;
+      min-height: 200vh;
+      height: auto;
+      background-color: #FCF1E3;
+      padding: clamp(2%, 5%, 6%);
+     border-radius: clamp(20px, 5vw, 50px) clamp(20px, 5vw, 50px) 0 0;
+      box-sizing: border-box;
+    }
+
+          .section3{
+          position: relative;
+          top: 20vh;
+          max-width: 100%;
+          height: 250vh;
+          background-color: #FFB74B;
+          padding: 5%;
+          border-top-left-radius: 50px;
+          border-top-right-radius: 50px;
+        }
+    
+
+      .blob1 {
+        position: relative;
+        width: clamp(350px, 15vw, 300px);
+        height: auto;
+        bottom: clamp(5%, 8vh, 10%);
+        left: clamp(1%, 1vw, 1%);
+        right: clamp(3%, 8vw, 10%);
+        z-index: 0;
+        margin: 50px;
+      }
+
+
+    .green-box {
+      background-color: #FCF1E3;
+      color: #000;
+      padding: 15px;
+      border-radius: 8px;
+      margin-top: 20px;
+      font-size: 16px;
+    }
+
+
+
+
+      .blob2 {
+        position: relative;
+        width: clamp(350px, 15vw, 300px);
+        height: auto;
+        bottom: clamp(5%, 8vh, 10%);
+        left: clamp(1%, 1vw, 1%);
+        right: clamp(3%, 8vw, 10%);
+        z-index: 0;
+        margin: 50px;
+      }
+
+
+    .blob1, .blob2 {
+        position: relative;
+        width: clamp(350px, 15vw, 300px);
+        height: auto;
+        bottom: clamp(5%, 8vh, 10%);
+        left: clamp(1%, 1vw, 1%);
+        right: clamp(3%, 8vw, 10%);
+        z-index: 0;
+        margin: 50px;
+    }
+
+      .circle11111 {
+          border-radius: 50%;
+          width: 40px;
+          height: 40px;
+          background-color: transparent;
+          position: fixed;
+          z-index: 9999;
+          pointer-events: none;
+      }
+          .main11111 {
+          position: absolute;
+          left: 0%;
+          top: 0%;
+          width: 100%;
+          height: 100%;
+          background-color: transparent;
+      }
+      /* From Uiverse.io by omar-alghaish */ 
+.switch {
+  position: relative;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  user-select: none;
+   outline: none;
+}
+
+.switch input {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  cursor: pointer;
+  position: absolute;
+}
+
+.switch div {
+  width: 80%;
+  height: 80%;
+  margin: 10%;
+  position: absolute;
+}
+
+.switch span {
+  background: #000;
+  width: 100%;
+  height: 2px;
+  border-radius: 5px;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s, width 0.5s;
+}
+
+.switch .line-1 {
+  width: 50%;
+  transform: translate(-100%, -10px);
+  transform-origin: 0 0;
+}
+
+.switch .line-3 {
+  width: 50%;
+  left: auto;
+  right: 0;
+  transform: translate(0, 10px);
+  transform-origin: 100% 0;
+}
+
+.switch.active .line-1 {
+  transform: translate(0, 0) rotate(-45deg);
+}
+
+.switch.active .line-3 {
+  transform: translate(-100%, 0) rotate(-45deg);
+}
+
+.switch.active .line-2 {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+      /* --- RESPONSIVENESS (Existing & Adjusted) --- */
+      @media (max-width: 768px) {
+          .blob1, .blob2 {
+              width: clamp(200px, 25vw, 150px);
+              bottom: clamp(3%, 6vh, 8%);
+              right: clamp(3%, 6vw, 8%);
+          }
+      }
+
+
+      @media (max-width: 480px) {
+          .blob1, .blob2 {
+              width: clamp(170px, 35vw, 130px);
+              bottom: clamp(2%, 4vh, 6%);
+              right: clamp(2%, 4vw, 6%);
+          }
+      }
+
+
+      @media (max-width: 320px) {
+          .blob1, .blob2 {
+              
+              width: 100px;
+              bottom: 1vh;
+              right: 1vw;
+          }
+      }
+
+
+      
+      /* @media (max-width: 960px) { - This block is now handled by the new mobile menu section above
+          nav {
+              display: none;
+          }
+        
+          body {
+              padding-top: 20px;
+          }
+      } */
+
+      
+          
+      @media (max-width: 1700px) {
+          .logo { padding: 10px 60px; font-size: 1.2rem; }
+          .test { padding: 10px 60px; font-size: 1.2rem; }
+          .nav-links { gap: 40px; }
+          .btns { margin-left: 50px; }
+          
+          .box { width: 550px; height: 300px; margin: -200px 100px 25px auto; }
+      }
+          @media (max-width: 1378px) {
+          .logo { padding: 10px 60px; font-size: 1.2rem; }
+          .test { padding: 10px 60px; font-size: 1.2rem; }
+          .nav-links { gap: 40px; }
+          .btns { margin-left: 50px; }
+          
+          .box { width: 450px; height: 250px; margin: -180px 80px 20px auto; }
+      }
+
+      @media (max-width: 1181px) {
+          .btns { margin-left: 30px; }
+          .box { width: 350px; height: 200px; margin: -130px 60px 20px auto; }
+          .desc { font-size: 1.5rem; }
+          .hero h1 { font-size: 2.5rem; }
+      }
+          @media (max-width: 960px) {
+          .btns { margin-left: 30px; }
+          .box { width: 200px; height: 120px; margin: -80px 60px 20px auto; }
+          .desc { font-size: 1.5rem; }
+          .hero h1 { font-size: 2.5rem; }
+      }
+          @media (max-width: 919px) {
+          .btns { margin-left: 30px; }
+          .box { width: 200px; height: 120px; margin: -80px 60px 20px auto; }
+          .desc { font-size: 1.5rem; }
+          .hero h1 { font-size: 2.5rem; }
+      }
+          @media (max-width: 819px) {
+          .hero h1 { font-size: 1.8rem; text-align: center; }
+          .desc { font-size: 1.1rem; position: relative;left: 10%; margin-left: 0; }
+          .btns { margin-left: 0; justify-content: center; }
+          .box { width: 30%; height: 120px; margin: -100px auto 20px; transform: rotate(-3deg); display: none; }
+          .container { padding: 20px; }
+      }
+
+      @media (max-width: 768px) {
+          .hero h1 { font-size: 1.8rem; text-align: center; }
+          .desc { font-size: 1.1rem; position: relative;left: 10%; margin-left: 0; }
+          .btns { margin-left: 0; justify-content: center; }
+          .box { width: 70%; height: 120px; margin: -100px auto 20px; transform: rotate(-3deg); display: none; }
+          .container { padding: 20px; }
+      }
+
+      @media (max-width: 480px) {
+          .box { width: 90%; height: 100px; margin: -80px auto 15px; display: none;}
+          .btn { padding: 15px 30px; font-size: 0.9rem; }
+          .hero h1 { font-size: 1.4rem; }
+          .desc { font-size: 0.9rem; position: relative;left: 10%;}
+      }
+      @media (max-width: 840px) {
+      .circle11111 {
+          display: none !important;
+      }
+    }
+
+     .card-stack-section {
+            min-height: 100vh; /* Ensure enough space for pinning */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 100px 20px;
+            box-sizing: border-box;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: clamp(1.8em, 5vw, 2.5em); /* Responsive font size */
+            color: #1e3a8a;
+            margin-bottom: 50px;
+            font-weight: 700;
+        }
+
+        /* CRITICAL: Card Container setup */
+        .card-container {
+            width: 100%;
+            max-width: 1000px; 
+            /* Height is now responsive based on vh, allowing cards to scale */
+            height: 70vh; 
+            min-height: 450px; 
+            margin: 0 auto;
+            position: relative; 
+            display: flex;
+            justify-content: center; 
+            align-items: center;
+        }
+
+        /* --- Card Styles (Mobile-First) --- */
+        .team-card {
+            position: absolute; 
+            width: 250px; /* Base mobile size */
+            height: 300px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+            padding: 15px;
+            text-align: center;
+            box-sizing: border-box;
+            opacity: 0; 
+            border: 2px solid #000;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .team-card:hover {
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .team-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%; /* Circular image */
+            object-fit: cover;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 4px solid #000;
+            background-color: #fff; 
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto;
+        }
+
+        h3 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #1f2937;
+        }
+        
+        p {
+            font-size: 0.9em;
+            color: #6b7280;
+            margin-top: 5px;
+        }
+
+        /* --- DESKTOP Adjustments (Min-Width 768px) --- */
+        @media (min-width: 768px) {
+            .card-container {
+                height: 80vh; /* Taller on desktop */
+                min-height: 700px;
+            }
+            
+            .team-card {
+                width: 300px;
+                height: 430px;
+                border-radius: 15px;
+                padding: 20px;
+            }
+
+            .team-img {
+                width: 250px;
+                height: 250px;
+            }
+
+            h3 {
+                font-size: 1.8em;
+            }
+        }
+                /* --- EXTRA RESPONSIVE IMPROVEMENTS --- */
+
+        /* Tablets (portrait and landscape) */
+        @media (max-width: 1024px) and (min-width: 768px) {
+            .card-container {
+                max-width: 90%;
+                height: 70vh;
+            }
+
+            .team-card {
+                width: 260px;
+                height: 430px;
+            }
+
+            .team-img {
+                width: 200px;
+                height: 200px;
+            }
+
+            h3 {
+                font-size: 1.6em;
+            }
+        }
+
+        /* Large Desktops / Wide Screens */
+        @media (min-width: 1200px) {
+            .card-container {
+                max-width: 1100px;
+                height: 80vh;
+            }
+
+            .team-card {
+                width: 330px;
+                height: 430px;
+            }
+
+            .team-img {
+                width: 260px;
+                height: 260px;
+            }
+
+            .section-title {
+                font-size: clamp(2.5em, 4vw, 3.5em);
+            }
+        }
+
+        /* Small Mobile Devices (under 480px) */
+        @media (max-width: 480px) {
+            .card-container {
+                height: 60vh;
+                min-height: 400px;
+                max-width: 95%;
+            }
+
+            .team-card {
+                width: 200px;
+                height: 430px;
+                padding: 10px;
+            }
+
+            .team-img {
+                width: 130px;
+                height: 130px;
+                border-width: 3px;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: 0.8em;
+            }
+
+            .section-title {
+                font-size: clamp(1.5em, 6vw, 2em);
+                margin-bottom: 30px;
+            }
+        }
+
+        /* Ultra-small screens (under 360px width) */
+        @media (max-width: 360px) {
+            .team-card {
+                width: 180px;
+                height: 270px;
+            }
+
+            .team-img {
+                width: 110px;
+                height: 110px;
+            }
+
+            h3 {
+                font-size: 1em;
+            }
+
+            p {
+                font-size: 0.75em;
+            }
+        }
+
+        /* --- NEW TEAM SLIDER STYLES --- */
+        .team-section {
+            display: none; /* Hidden by default */
+            min-height: 100vh;
+            padding: 50px 20px;
+            background-color: #FCF1E3;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 120px; /* Added to push heading below nav */
+        }
+
+        .team-section.active {
+            display: block; /* Show when active */
+        }
+
+        .team-slider {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .slider-container {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .slider-card {
+            flex: 0 0 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: "Kode Mono", monospace;
+            min-width: 0; /* Prevent overflow from fixed-width content */
+        }
+
+        .slider-card img {
+            max-width: 100%; /* Ensure image fits within card */
+            max-height: 300px; /* Cap height to prevent overflow */
+            width: 300px; /* Default size */
+            height: 300px; /* Default size */
+            border-radius: 10px;
+            border: 3px solid #000;
+            margin-bottom: 20px;
+            object-fit: cover;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slider-card h3 {
+            font-family: "Bungee", sans-serif;
+            font-size: 1.8rem;
+            color: #000;
+        }
+
+        .slider-card p {
+            font-size: 1rem;
+            color: #333;
+        }
+
+        .close-button {
+            background-color: #FFB74B;
+            color: #000;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-family: "Bungee", sans-serif;
+            font-size: 1rem;
+            cursor: none;
+            transition: transform 0.3s;
+            margin-top: 20px;
+            margin-bottom: 0; /* Remove bottom margin to eliminate extra space */
+        }
+
+        .close-button:hover {
+            transform: none !important;
+        }
+
+        .slider-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 0; /* Remove bottom margin to eliminate extra space */
+        }
+
+        .slider-nav button {
+            background-color: #FFB74B;
+            color: #000;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-family: "Bungee", sans-serif;
+            font-size: 0.5rem;
+            cursor: none;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .slider-nav button:hover {
+            transform: none !important; /* Overrides any inherited scaling */
+        }
+
+        .slider-nav button.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        /* Hide navigation buttons on desktop (min-width: 768px) */
+        @media (min-width: 768px) {
+            .slider-nav {
+                display: none;
+            }
+
+            .slider-card {
+                flex: 0 0 25%; /* Four cards visible on desktop */
+                width: 300px; /* Fixed width to match image size */
+            }
+
+            .slider-card img {
+                max-width: 100%; /* Ensure image fits within card */
+                max-height: 300px;
+                width: 300px; /* Consistent size */
+                height: 300px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .slider-card {
+                flex: 0 0 100%; /* Full width on mobile/tablet */
+                width: 100%;
+                padding: 10px; /* Reduced padding to fit smaller screens */
+            }
+
+            .slider-card img {
+                max-width: 80%; /* Scale down to fit container */
+                max-height: 200px;
+                width: 200px; /* Adjusted size */
+                height: 200px;
+            }
+
+            .slider-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .slider-card p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .slider-card {
+                padding: 5px; /* Further reduce padding */
+            }
+
+            .slider-card img {
+                max-width: 70%; /* Further scale down */
+                max-height: 150px;
+                width: 150px; /* Adjusted size */
+                height: 150px;
+            }
+
+            .slider-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .slider-card p {
+                font-size: 0.8rem;
+            }
+        }
+
+        /* --- NEW ABOUT SLIDER STYLES --- */
+        .about-section {
+            display: none; /* Hidden by default */
+            min-height: 100vh;
+            padding: 50px 20px;
+            background-color: #FCF1E3;
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 120px; /* Added to push heading below nav */
+        }
+
+        .about-section.active {
+            display: block; /* Show when active */
+        }
+
+        .about-slider {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .about-slider-container {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%;
+        }
+
+        .about-slider-card {
+            flex: 0 0 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center;
+            font-family: "Kode Mono", monospace;
+        }
+
+        .about-slider-card h3 {
+            font-family: "Bungee", sans-serif;
+            font-size: 1.8rem;
+            color: #000;
+        }
+
+        .about-slider-card p {
+            font-size: 1rem;
+            color: #333;
+            margin-top: 10px;
+        }
+
+        .about-close-button {
+            background-color: #FFB74B;
+            color: #000;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-family: "Bungee", sans-serif;
+            font-size: 1rem;
+            cursor: none;
+            transition: transform 0.3s;
+            margin-top: 20px;
+            margin-bottom: 0; /* Remove bottom margin to eliminate extra space */
+        }
+
+        .about-close-button:hover {
+            transform: none !important;
+        }
+
+        .about-slider-nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            margin-bottom: 0; /* Remove bottom margin to eliminate extra space */
+        }
+
+        .about-slider-nav button {
+            background-color: #FFB74B;
+            color: #000;
+            border: 2px solid #000;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-family: "Bungee", sans-serif;
+            font-size: 0.5rem;
+            cursor: none;
+            transition: transform 0.3s, opacity 0.3s;
+        }
+
+        .about-slider-nav button:hover {
+            transform: none !important; /* Overrides any inherited scaling */
+        }
+
+        .about-slider-nav button.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        /* Hide navigation buttons on desktop (min-width: 768px) */
+        @media (min-width: 768px) {
+            .about-slider-nav {
+                display: none;
+            }
+
+            .about-slider-card {
+                flex: 0 0 25%; /* Four cards visible on desktop */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .about-slider-card h3 {
+                font-size: 1.5rem;
+            }
+
+            .about-slider-card p {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .about-slider-card h3 {
+                font-size: 1.2rem;
+            }
+
+            .about-slider-card p {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <script>
+      function showSpinner(formId, spinnerId) {
+        document.getElementById(spinnerId).style.display = 'block';
+        // Simulate an asynchronous operation (e.g., a server request)
+        setTimeout(() => {
+          document.getElementById(spinnerId).style.display = 'none';
+        }, 3000);
+      }
+      
+      // Function to handle smooth scroll
+      function scrollToElement(elementId) {
+          if (elementId === 'page-top') {
+              window.scrollTo({
+                  top: 0,
+                  behavior: 'smooth'
+              });
+          } else {
+              document.getElementById(elementId).scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start' // Scroll to the top of the element
+              });
+          }
+      }
+    </script>
+    <script>
+      // Fixed cursor follower code (existing)
+      document.addEventListener("DOMContentLoaded", function() {
+        const circle = document.querySelector(".circle11111");
+        const main = document.querySelector("body"); 
+        
+        if (circle && main) {
+          // Make circle initially invisible
+          gsap.set(circle, { opacity: 0 });
+          
+          // Follow mouse
+          main.addEventListener("mousemove", (e) => {
+            gsap.to(circle, {
+              x: e.clientX,
+              y: e.clientY,
+              opacity: 1,
+              duration: 0.2,
+              ease: "power2.out"
+            });
+          });
+          
+          // Hide when leaving window
+          main.addEventListener("mouseleave", () => {
+            gsap.to(circle, { opacity: 0, duration: 0.2 });
+          });
+        } else {
+          console.error("Cursor elements not found!");
+        }
+        
+        // --- NEW MENU TOGGLE CODE ---
+        const menuToggle = document.getElementById('menu-toggle');
+        const navLinks = document.getElementById('mobile-menu');
+        const switchInput = menuToggle.querySelector('.switch input');
+        const switchDiv = menuToggle.querySelector('.switch div');
+        
+        if (menuToggle && navLinks && switchInput && switchDiv) {
+            menuToggle.addEventListener('click', () => {
+                // Toggle the 'active' class to show/hide the menu
+                navLinks.classList.toggle('active');
+                switchDiv.classList.toggle('active');
+            });
+            
+            // Close menu when a link is clicked
+            const navItems = navLinks.querySelectorAll('li');
+            navItems.forEach(item => {
+                item.addEventListener('click', () => {
+                    navLinks.classList.remove('active');
+                    switchDiv.classList.remove('active');
+                });
+            });
+        }
+
+        // --- NEW TEAM SLIDER TOGGLE CODE ---
+        const teamLink = document.querySelector('.nav-links li:nth-child(2)'); // TEAM button
+        const teamSection = document.querySelector('.team-section');
+        const mainContainer = document.querySelector('.container');
+        const closeButton = document.querySelector('.close-button');
+
+        if (teamLink && teamSection && mainContainer) {
+            teamLink.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent the document click event from interfering
+                teamSection.classList.toggle('active');
+                mainContainer.style.display = teamSection.classList.contains('active') ? 'none' : 'block';
+                scrollToElement('team-section');
+                
+                // Update menu toggle to cross when team section is active
+                if (menuToggle && switchDiv) {
+                    switchDiv.classList.toggle('active', teamSection.classList.contains('active'));
+                    navLinks.classList.remove('active'); // Ensure menu closes when team opens
+                }
+            });
+        }
+
+        // Close button functionality
+        if (closeButton && teamSection && mainContainer) {
+            closeButton.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent the document click event from interfering
+                teamSection.classList.remove('active');
+                mainContainer.style.display = 'block';
+                scrollToElement('page-top');
+                
+                // Revert menu toggle to hamburger when team section closes
+                if (menuToggle && switchDiv) {
+                    switchDiv.classList.remove('active');
+                }
+            });
+        }
+
+        // --- NEW ABOUT SLIDER TOGGLE CODE ---
+        const aboutLink = document.querySelector('.nav-links li:nth-child(3)'); // ABOUT button
+        const aboutSection = document.querySelector('.about-section');
+        const aboutCloseButton = document.querySelector('.about-close-button');
+
+        if (aboutLink && aboutSection && mainContainer) {
+            aboutLink.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent the document click event from interfering
+                aboutSection.classList.toggle('active');
+                mainContainer.style.display = aboutSection.classList.contains('active') ? 'none' : 'block';
+                scrollToElement('about-section');
+                
+                // Update menu toggle to cross when about section is active
+                if (menuToggle && switchDiv) {
+                    switchDiv.classList.toggle('active', aboutSection.classList.contains('active'));
+                    navLinks.classList.remove('active'); // Ensure menu closes when about opens
+                }
+            });
+        }
+
+        // Close button functionality for About
+        if (aboutCloseButton && aboutSection && mainContainer) {
+            aboutCloseButton.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent the document click event from interfering
+                aboutSection.classList.remove('active');
+                mainContainer.style.display = 'block';
+                scrollToElement('page-top');
+                
+                // Revert menu toggle to hamburger when about section closes
+                if (menuToggle && switchDiv) {
+                    switchDiv.classList.remove('active');
+                }
+            });
+        }
+
+        // --- TEAM SLIDER FUNCTIONALITY ---
+        const sliderContainer = document.querySelector('.slider-container');
+        const prevButton = document.querySelector('.prev-slide');
+        const nextButton = document.querySelector('.next-slide');
+        let currentIndex = 0;
+        const totalSlides = sliderContainer ? sliderContainer.children.length : 0;
+
+        function updateSlider() {
+            const slideWidth = 100; // Percentage width of each slide
+            gsap.to(sliderContainer, {
+                xPercent: -currentIndex * slideWidth,
+                duration: 0.5,
+                ease: "power2.out"
+            });
+
+            // Toggle button visibility for mobile
+            if (prevButton && nextButton && window.innerWidth < 768) {
+                prevButton.classList.toggle('hidden', currentIndex === 0);
+                nextButton.classList.toggle('hidden', currentIndex === totalSlides - 1);
+            }
+        }
+
+        if (prevButton && nextButton && sliderContainer) {
+            prevButton.addEventListener('click', () => {
+                if (currentIndex > 0) {
+                    currentIndex--;
+                    updateSlider();
+                }
+            });
+
+            nextButton.addEventListener('click', () => {
+                if (currentIndex < totalSlides - 1) {
+                    currentIndex++;
+                    updateSlider();
+                }
+            });
+
+            // Initial button state
+            updateSlider();
+        }
+
+        // --- ABOUT SLIDER FUNCTIONALITY ---
+        const aboutSliderContainer = document.querySelector('.about-slider-container');
+        const aboutPrevButton = document.querySelector('.about-prev-slide');
+        const aboutNextButton = document.querySelector('.about-next-slide');
+        let aboutCurrentIndex = 0;
+        const aboutTotalSlides = aboutSliderContainer ? aboutSliderContainer.children.length : 0;
+
+        function updateAboutSlider() {
+            const slideWidth = 100; // Percentage width of each slide
+            gsap.to(aboutSliderContainer, {
+                xPercent: -aboutCurrentIndex * slideWidth,
+                duration: 0.5,
+                ease: "power2.out"
+            });
+
+            // Toggle button visibility for mobile
+            if (aboutPrevButton && aboutNextButton && window.innerWidth < 768) {
+                aboutPrevButton.classList.toggle('hidden', aboutCurrentIndex === 0);
+                aboutNextButton.classList.toggle('hidden', aboutCurrentIndex === aboutTotalSlides - 1);
+            }
+        }
+
+        if (aboutPrevButton && aboutNextButton && aboutSliderContainer) {
+            aboutPrevButton.addEventListener('click', () => {
+                if (aboutCurrentIndex > 0) {
+                    aboutCurrentIndex--;
+                    updateAboutSlider();
+                }
+            });
+
+            aboutNextButton.addEventListener('click', () => {
+                if (aboutCurrentIndex < aboutTotalSlides - 1) {
+                    aboutCurrentIndex++;
+                    updateAboutSlider();
+                }
+            });
+
+            // Initial button state
+            updateAboutSlider();
+        }
+        // --- END NEW ABOUT SLIDER CODE ---
+      });
+    </script>
+    <script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+  type="module"
+></script>
+</head>
+<body>
+    <div class="main11111">
+      <img src="icons8-cursor-48.png" class="circle11111" alt="Cursor Follower">
+    </div>
+        
+
+    <nav>
+      <div class="logo" data-aos="fade-right">•ᴗ• PROJECT</div>
+      
+      <ul class="nav-links" id="mobile-menu">
+        <li onclick="scrollToElement('page-top')" data-aos="fade-down">HOME</li>
+        <li data-aos="fade-down">TEAM</li>
+        <li data-aos="fade-down">ABOUT</li>
+      </ul>
+
+      <div class="test" onclick="scrollToElement('main-scan-section')" data-aos="fade-left">• TEST</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <!-- From Uiverse.io by omar-alghaish --> 
+<div class="switch">
+    <input type="checkbox">
+    <div>
+        <span class="line-1"></span>
+        <span class="line-2"></span>
+        <span class="line-3"></span>
+    </div>
+</div>
+        
+      </div>
+
+     
+      </nav>
+
+    <a id="page-top"></a>
+    
+    <section class="hero">
+      
+      <h1  data-aos="fade-up">
+        •ᴗ• SAFEGUARD YOURSELF FROM FRAUDULENT EMAILS AND MALICIOUS WEBSITES WITH CUTTING-EDGE AI-DRIVEN SECURITY •ᴗ•
+      </h1>
+          
+    </section>
+
+    
+    <h2 class="desc" data-aos="fade-up">
+      Welcome! Verify if an email or site is safe. Our AI and Google Safe Browsing scan for phishing, malware, and fraud.
+    </h2>
+
+    
+    <div class="btns">
+      <button class="btn btn-upload" onclick="scrollToElement('file-scan-form')" data-aos="zoom-in">• UPLOAD & SCAN</button>
+      <button class="btn btn-url" onclick="scrollToElement('url-scan-form')" data-aos="zoom-in">• Check URL</button>
+    </div>
+
+    
+    <div class="box" data-aos="zoom-in">
+      <dotlottie-wc
+          src="https://lottie.host/5fb529ec-a885-4cfd-8b6a-a4cfcf3784c5/O0U9TQ7OBx.lottie"
+          style="width: 85%; height: 85%; transform: rotate(0deg); position: absolute; top: 8%; left: 7%;"
+          autoplay
+          loop
+      ></dotlottie-wc>
+    </div>
+
+    
+    <div class="section2">
+      <div class="container" id="main-scan-section"> 
+      <img src="Explosion.png" class="explosionflower" alt="Explosion Graphic" data-aos="fade-right">
+      <img src="exp-l.png" class="explosionflower-left" alt="Explosion Graphic" data-aos="fade-left">
+      <h2 class="fa-exclamation-triangle" data-aos="fade-up"><i class="fas fa-exclamation-triangle"></i> Proactive Threat Detection & Risk Management Report</h2>
+      <h2 class="descrip" data-aos="fade-in">Our AI thoroughly analyzed the content you provided and determined:</h2>
+      <img src="Frame 1.png" alt="Blob" class="blob1" id="file-scan-form" data-aos="zoom-in">
+
+    
+      <form action="/scam/" method="post" enctype="multipart/form-data" onsubmit="showSpinner('fileForm', 'fileSpinner')" data-aos="fade-in">
+        <input type="file" name="file" required style="border: 5px solid #FFB74B; padding: 15px; border-radius: 12px; font-size: 1.2rem; background-color: #FCF1E3; color: #000;font-family: 'Kode Mono', monospace;cursor: none;" ><br>
+        <button type="submit" style="font-family: 'Bungee', sans-serif;font-size: 2rem;color: #FCF1E3;cursor: none;"><i class="fas fa-upload scan-icon"></i>• Analyze</button>
+        <div id="fileSpinner" class="spinner"></div>
+      </form>
+      {% if message %}
+        <div class="result-box green-box">
+          <h2 style=" font-family: 'Kode Mono', monospace;font-size: 1.5rem;color: #000;">Result:</h2>
+          <p>{{ message }}</p>
+        </div>
+      {% endif %}
+      
+
+      <img src="Frame 3.png" alt="Blob" class="blob2" id="url-scan-form" data-aos="zoom-in">
+      <form method="post" action="/predict" onsubmit="showSpinner('urlForm', 'urlSpinner')" data-aos="fade-in">
+        <label for="url" style="font-family: 'Kode Mono', monospace;font-size: 1.5rem;color: #FCF1E3;">Enter URL:</label>
+        <input type="text" name="url" required style="border: 5px solid #FFB74B; padding: 15px; border-radius: 12px; font-size: 25px; background-color: #FCF1E3; color: #000;cursor: none;">
+        <button type="submit" style="font-family: 'Bungee', sans-serif;font-size: 2rem;color: #FCF1E3;cursor: none;"><i class="fas fa-search"></i>• Classify</button>
+        <div id="urlSpinner" class="spinner"></div>
+      </form>
+
+
+      {% if predicted_class %}
+        <div class="result-box {{ predicted_class.lower() }}">
+          <p><strong style=" font-family: 'Kode Mono', monospace;font-size: 1.5rem;color: #000;">URL:</strong> {{ input_url }}</p>
+          <p><strong style=" font-family: 'Kode Mono', monospace;font-size: 1.5rem;color: #000;">Predicted Class:</strong> {{ predicted_class }}</p>
+        </div>
+      {% endif %}
+    </div>
+    <section class="team-section" id="team-section">
+        <h2 class="section-title" style="font-family: 'Bungee', sans-serif; color: #000;" data-aos="fade-up">𓆩 Our Team 𓆪</h2>
+        <div class="team-slider">
+            <div class="slider-container" >
+                <div class="slider-card">
+                    <img src="chandu.jpg" alt="Team Member 1">
+                    <h3>S.CHANDU</h3>
+                    <p>[5J], Lead Developer</p>
+                </div>
+                <div class="slider-card">
+                    <img src="anmol.jpg" alt="Team Member 2">
+                    <h3>D.ANMOL</h3>
+                    <p>[4E], AI Specialist</p>
+                </div>
+                <div class="slider-card">
+                    <img src="harsha.jpg" alt="Team Member 3">
+                    <h3>K.HARSHA</h3>
+                    <p>[4Y], Security Analyst</p>
+                </div>
+                <div class="slider-card">
+                    <img src="goutham.jpg" alt="Team Member 4">
+                    <h3>T.GOUTHAM</h3>
+                    <p>[5V], UI/UX Designer</p>
+                </div>
+            </div>
+            <button class="close-button">✖ Close</button>
+            <div class="slider-nav">
+                <button class="prev-slide">◀ Previous</button>
+                <button class="next-slide">Next ▶</button>
+            </div>
+        </div>
+    </section>
+    <section class="about-section" id="about-section">
+        <h2 class="section-title" style="font-family: 'Bungee', sans-serif; color: #000;" data-aos="fade-up">𓆩 About Us 𓆪</h2>
+        <div class="about-slider">
+            <div class="about-slider-container">
+                <div class="about-slider-card">
+                    <h3>• Our Mission</h3>
+                    <p>To provide cutting-edge AI-driven security solutions to protect users from online threats.</p>
+                </div>
+                <div class="about-slider-card">
+                    <h3>• Our Vision</h3>
+                    <p>A safer digital world through innovative technology and proactive threat detection.</p>
+                </div>
+                <div class="about-slider-card">
+                    <h3>• Our Technology</h3>
+                    <p>Leveraging AI and Google Safe Browsing for real-time analysis and protection.</p>
+                </div>
+                <div class="about-slider-card">
+                    <h3>• Our Commitment</h3>
+                    <p>Delivering reliable, user-friendly tools to enhance online safety worldwide.</p>
+                </div>
+            </div>
+            <button class="about-close-button">✖ Close</button>
+            <div class="about-slider-nav">
+                <button class="about-prev-slide">Previous</button>
+                <button class="about-next-slide">Next</button>
+            </div>
+        </div>
+    </section>
+    </div>
+       
+    </div>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 500,
+        delay: 50,
+        once: false,
+      });
+    </script>
+   <script>
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Helper function to calculate responsive animation values
+        function getResponsiveValues() {
+            const width = window.innerWidth;
+            const isMobile = width < 768;
+
+            // These values define how far the cards move from the center (0,0) of the container
+            // and how far they fly in from.
+           return {
+    // Center the final stack position
+   stackXOffset: isMobile ? -10 : -250, 
+stackYOffset: isMobile ? -100 : -250,
+
+
+    // Keep other values the same
+    overlapOffset: isMobile ? 4 : 10,
+    flyInDistance: isMobile ? 250 : 400,
+    scrollDurationPerCard: isMobile ? 120 : 180,
+};
+
+        }
+
+        function setupAnimation() {
+            // Kill any existing ScrollTriggers to prevent duplicates on resize
+            ScrollTrigger.getAll().forEach(trigger => trigger.kill());
+
+            const cards = gsap.utils.toArray(".team-card");
+            const numCards = cards.length;
+            
+            // Get responsive values based on current viewport size
+            const { stackXOffset, stackYOffset, overlapOffset, flyInDistance, scrollDurationPerCard } = getResponsiveValues();
+            
+            const totalScrollHeight = numCards * scrollDurationPerCard; 
+
+            // Initial (from) state for the fly-in using calculated distance
+            const startState = {
+                x: flyInDistance,
+                y: -flyInDistance,
+                scale: 0.5,
+                rotation: 15,
+                opacity: 0,
+                zIndex: 1 
+            };
+
+            // Master timeline configuration
+            let masterTl = gsap.timeline({
+                scrollTrigger: {
+                    trigger: ".card-stack-section",
+                    pin: true,                      
+                    start: "top top",               
+                    end: `+=${totalScrollHeight}vh`, /* Use calculated height */
+                    scrub: 1,                       
+                    markers: false,
+                    // Good practice: refresh when the viewport size changes
+                    onRefresh: () => console.log('ScrollTrigger Refreshed'),
+                }
+            });
+
+            // Loop to create the staggered fly-in effect
+            cards.forEach((card, index) => {
+                
+                const revealStartLabel = `card-reveal-${index}`;
+                
+                // Calculate the final (to) state for this specific card using responsive offsets
+                const finalState = {
+                    x: stackXOffset + (index * overlapOffset), 
+                    y: stackYOffset + (index * overlapOffset),
+                    scale: 1,
+                    rotation: -2 + (index * 1.5), // Slightly less rotation on mobile
+                    opacity: 1,
+                    zIndex: index + 1, 
+                    duration: 2.0,
+                    ease: "power2.out"
+                };
+
+                // 1. FLY-IN (fromTo)
+                // Use a label to control the timing precisely
+                masterTl.fromTo(card, startState, finalState, revealStartLabel);
+                
+                // 2. PAUSE / NEXT CARD TRIGGER
+                // Add a gap to hold the stack before the next card animates in
+                if (index < numCards - 1) {
+                    // This label determines the end of the current card's entry and the start of the next one
+                    masterTl.addLabel(`card-stack-${index}`, "+=1.5"); 
+                    masterTl.addLabel(`card-reveal-${index + 1}`, `card-stack-${index}`);
+                }
+            });
+        }
+        
+        // Initial setup
+        setupAnimation();
+
+        // Re-setup animation on window resize to get new responsive offsets
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+            clearTimeout(resizeTimer);
+            resizeTimer = setTimeout(() => {
+                setupAnimation();
+            }, 50); // Debounce for performance
+        });
+        
+    </script>
+    
+
+</body>
+</html>
