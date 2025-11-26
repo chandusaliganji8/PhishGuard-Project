@@ -1,11 +1,7 @@
-fastapi==0.101.1
-uvicorn[standard]==0.23.2
-waitress==2.1.2
-google-generativeai==0.2.0
-google-api-python-client==2.92.0
+Flask==2.3.3
+gunicorn==21.2.0
 PyPDF2==3.0.1
 python-dotenv==1.0.0
-jinja2==3.1.2
 requests==2.31.0
-gunicorn==21.2.0
-Flask==2.3.3
+jinja2==3.1.2
+google-genai==0.6.0
