@@ -23,7 +23,7 @@ if not GEMINI_API_KEY:
 
 # --- NEW: create a client instance for the GenAI SDK ---
 # We pass api_key explicitly so it's clear and works in Render env.
-client = genai.Client(api_key=GEMINI_API_KEY)
+client = genai.Client(api_key=os.environ.get("GOOGLE_API_KEY"))
 
 # Helper to call the model (replaces old model = genai.GenerativeModel(...))
 MODEL_NAME = "gemini-2.5-flash"
